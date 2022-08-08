@@ -1,0 +1,19 @@
+<mat-card>
+  <mat-card-title>Login</mat-card-title>
+  <mat-form-field>
+    Username:<br>
+        <input matInput type="text" id="username" name="username" [(ngModel)]="username">
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+    Password:<br>
+     <input matInput type="text" id="password" name="password" [(ngModel)]="password">
+  </mat-form-field> <br>
+  <button
+    mat-raised-button
+    color="primary"
+    type="submit"
+    name="login"
+    (click)="onAddPost()">Login</button>
+</mat-card>
+<br>

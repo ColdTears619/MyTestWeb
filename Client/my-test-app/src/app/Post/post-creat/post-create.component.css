@@ -1,0 +1,8 @@
+mat-card-title {
+  align-items: center;
+}
+
+mat-form-field,
+input {
+    width: 50%;
+}
